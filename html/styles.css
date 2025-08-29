@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+
+  header {
+    height: 8vw;
+    background: #0033a0;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+  }
+
+  #truquito{
+      height: 8vw;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+    scroll-margin-top: 7rem;
+  }
+  
+  h2 {
+    color: #0033a0;
+    margin-bottom: 1rem;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 220px; 
+    object-fit: contain; 
+    background-color: #f4f4f4; 
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    background: #0033a0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer .social a {
+    color: #ffd700;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+  }
+  
